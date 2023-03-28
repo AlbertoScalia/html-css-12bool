@@ -25,7 +25,7 @@ body {
   background-color: var(--white);
 }
 
-p{
+p {
   font-size: 0.5rem;
   padding: 0.5rem 0;
   color: var(--white);
@@ -47,4 +47,3 @@ p{
 .back-green {
   background-color: var(--lightgreen);
 }
-
