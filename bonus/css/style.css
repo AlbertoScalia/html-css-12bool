@@ -1,0 +1,47 @@
+:root {
+  --white: white;
+  --blue: #006cfa;
+  --lightgreen: #00e165;
+  --black: black;
+  --purple: purple;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.container .row [class*="col-"] {
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+body {
+  background-color: var(--white);
+}
+
+p {
+  font-size: 0.5rem;
+  padding: 0.5rem 0;
+  color: var(--white);
+}
+
+.nested {
+  padding: 0.5rem;
+}
+
+.empty [class*="col-"] {
+  height: 33.6px;
+  background-color: var(--black);
+}
+
+.purple {
+  background-color: var(--purple) !important;
+}
